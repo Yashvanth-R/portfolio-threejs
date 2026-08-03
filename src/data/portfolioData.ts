@@ -9,8 +9,8 @@ export const PERSONAL_INFO = {
   email: 'yashvanthr064@gmail.com',
   phone: '(+91) 9591622064',
   whatsapp: '+919591622064',
-  github: 'https://github.com',
-  linkedin: 'https://linkedin.com',
+  github: 'https://github.com/Yashvanth-R',
+  linkedin: 'https://linkedin.com/in/yashvanth-r',
   portfolioVercel: 'https://yashvanth-portfolio-alpha.vercel.app/',
   stats: [
     { label: 'Years Experience', value: '1.8+' },
