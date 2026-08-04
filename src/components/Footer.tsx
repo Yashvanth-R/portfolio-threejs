@@ -24,7 +24,7 @@ export const Footer: React.FC = () => {
         {/* Center Tech Stack Badge */}
         <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 border border-slate-800 text-[11px] font-mono">
           <Cpu className="w-3.5 h-3.5 text-amber-400" />
-          <span>Built with React, Three.js, Tailwind CSS</span>
+          <span>Built with React, Three.js & Tailwind CSS</span>
         </div>
 
         {/* Right Actions */}

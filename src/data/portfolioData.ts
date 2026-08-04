@@ -20,19 +20,19 @@ export const PERSONAL_INFO = {
   ],
 };
 
-export const RELOCATION_INFO: RelocationInfo = {
-  preferredCities: ['Budapest (Hungary)', 'Berlin (Germany)', 'Amsterdam (Netherlands)', 'London (UK)', 'Global Remote'],
-  targetCountries: ['Hungary', 'Germany', 'Netherlands', 'United Kingdom', 'Canada', 'European Union'],
-  visaStatus: 'Requires Work Permit / Visa Sponsorship (Eligible for Fast-Track Tech Work Visas in EU)',
-  relocationTimeline: 'Available to relocate within 30-45 days of offer acceptance',
-  languages: [
-    { language: 'English', level: 'Full Professional Proficiency' },
-    { language: 'Kannada', level: 'Native / Bilingual' },
-    { language: 'Hindi', level: 'Fluent' },
-    { language: 'Hungarian / German', level: 'Actively Learning' },
-  ],
-  workModel: ['On-site (Budapest / EU)', 'Hybrid', 'Full Time Remote'],
-};
+// export const RELOCATION_INFO: RelocationInfo = {
+//   preferredCities: ['Budapest (Hungary)', 'Berlin (Germany)', 'Amsterdam (Netherlands)', 'London (UK)', 'Global Remote'],
+//   targetCountries: ['Hungary', 'Germany', 'Netherlands', 'United Kingdom', 'Canada', 'European Union'],
+//   visaStatus: 'Requires Work Permit / Visa Sponsorship (Eligible for Fast-Track Tech Work Visas in EU)',
+//   relocationTimeline: 'Available to relocate within 30-45 days of offer acceptance',
+//   languages: [
+//     { language: 'English', level: 'Full Professional Proficiency' },
+//     { language: 'Kannada', level: 'Native / Bilingual' },
+//     { language: 'Hindi', level: 'Fluent' },
+//     { language: 'Hungarian / German', level: 'Actively Learning' },
+//   ],
+//   workModel: ['On-site (Budapest / EU)', 'Hybrid', 'Full Time Remote'],
+// };
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
@@ -202,9 +202,8 @@ export const PROJECTS: Project[] = [
     longDescription: 'Engineered a high-performance eCommerce application. Leveraged Strapi as a headless CMS for dynamic inventory and product variant management. Integrated Supabase for secure multi-factor user authentication. Implemented real-time currency conversion between INR and USD, alongside dual payment gateway checkout (PayPal for global orders, PayU for Indian regional payments), and an integrated admin sales dashboard.',
     technologies: ['Next.js', 'TypeScript', 'Strapi CMS', 'Supabase Auth', 'PayPal API', 'PayU API', 'Tailwind CSS', 'Redux Toolkit'],
     metrics: ['Dual Currency (INR / USD)', 'Multi-Payment Integration', '100% Dynamic CMS Inventory', 'Admin Sales Tracking'],
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://yashvanth-portfolio-alpha.vercel.app/',
-    image: 'https://images.unsplash.com/photo-1556742049-0a67daf40955?auto=format&fit=crop&w=1200&q=80',
+    liveUrl: 'https://samsshopping.com',
+    image: 'https://images.unsplash.com/photo-1664455340023-214c33a9d0bd?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     interactiveType: 'currency-store',
     architectureNodes: [
       { id: 'client', label: 'Next.js App Router (Client)', type: 'client', description: 'Responsive storefront with dual currency toggle and cart management' },
@@ -229,7 +228,7 @@ export const PROJECTS: Project[] = [
     longDescription: 'Designed and deployed a containerized microservices ecosystem. Services communicate asynchronously via RabbitMQ exchanges and queues, ensuring zero message loss and fault isolation. Implemented task producer and worker consumer nodes, event logging, and container orchestration using Docker Compose for effortless local and cloud deployment.',
     technologies: ['Node.js', 'Express.js', 'RabbitMQ', 'MongoDB', 'Docker', 'Docker Compose', 'Event Driven Architecture'],
     metrics: ['Async Event Processing', 'Zero Service Coupling', 'Dockerized Orchestration', 'Real-time Task Pub/Sub'],
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/Yashvanth-R/microservices',
     image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80',
     interactiveType: 'microservice-queue',
     architectureNodes: [
@@ -256,7 +255,7 @@ export const PROJECTS: Project[] = [
     longDescription: 'Built an enterprise form builder allowing non-technical users to create complex forms visually. Features 7 field types (text, email, password, select, checkbox, date, auto-derived calculation), field reordering via HTML5 drag-and-drop, custom validation rules (regex, length, dependencies), and instant JSON schema export.',
     technologies: ['React.js', 'TypeScript', 'Redux Toolkit', 'Material UI', 'HTML5 Drag & Drop'],
     metrics: ['7 Field Types Supported', 'Auto-Derived Age from DOB', 'Real-time JSON Export', 'Drag & Drop Reordering'],
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/Yashvanth-R/dynamic-portfolio-dashboard',
     image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80',
     interactiveType: 'form-builder',
     architectureNodes: [
@@ -280,7 +279,7 @@ export const PROJECTS: Project[] = [
     longDescription: 'Engineered a modern web notes tool. Built a lightweight frontend with Next.js and Zustand for rapid state updates. On the backend, implemented an async Python FastAPI service with Pydantic model validation, Motor driver for MongoDB async queries, and JWT bearer token security.',
     technologies: ['Next.js', 'FastAPI', 'Python', 'MongoDB', 'JWT Auth', 'Tailwind CSS', 'Zustand', 'Pydantic'],
     metrics: ['Sub-10ms API Response', 'JWT Protected Routes', 'Async Motor DB Driver', 'Responsive Mobile-First'],
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/Yashvanth-R/notes-app',
     image: 'https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=1200&q=80',
     interactiveType: 'notes-app',
     architectureNodes: [
@@ -304,7 +303,7 @@ export const PROJECTS: Project[] = [
     longDescription: 'Created a centralized portal for scholarship distribution. Designed a multi-step form for students to submit academic credentials and income documents (stored securely in AWS S3 buckets). Built a dedicated administration portal with approval/rejection pipelines, status tracking, and automated email notifications.',
     technologies: ['Next.js', 'Node.js', 'Express.js', 'AWS S3', 'MongoDB', 'Tailwind CSS'],
     metrics: ['Automated Approval Pipeline', 'Secure AWS S3 Document Storage', 'Admin Analytics Dashboard'],
-    githubUrl: 'https://github.com',
+    liveUrl: 'https://svtctrust.org',
     image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80',
   },
 ];

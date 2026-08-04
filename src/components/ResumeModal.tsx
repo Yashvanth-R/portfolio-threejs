@@ -136,7 +136,7 @@ PROJECTS:
                 Professional Summary
               </h2>
               <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                Full Stack Developer with 1.8+ years of experience designing, building, and deploying scalable web applications from concept to production. Experienced in developing modern, responsive applications using React.js, Next.js, Node.js, TypeScript, and JavaScript, with hands-on expertise in building RESTful APIs and integrating backend services using Express.js, NestJS, and FastAPI. Skilled in developing CMS-driven platforms, authentication systems, payment gateway integrations (PayPal, PayU, Stripe), and admin dashboards. Strong experience with Docker, AWS, CI/CD pipelines, Grafana, and Prometheus for deploying and monitoring production applications. Actively seeking international engineering positions (Budapest, Hungary, Europe & Global).
+                Full Stack Developer with 1.8+ years of experience designing, building, and deploying scalable web applications from concept to production. Experienced in developing modern, responsive applications using React.js, Next.js, Node.js, TypeScript, and JavaScript, with hands-on expertise in building RESTful APIs and integrating backend services using Express.js, NestJS, and FastAPI. Skilled in developing CMS-driven platforms, authentication systems, payment gateway integrations (PayPal, PayU, Stripe), and admin dashboards. Strong experience with Docker, AWS, CI/CD pipelines, Grafana, and Prometheus for deploying and monitoring production applications. Actively seeking international engineering positions.
               </p>
             </div>
 

@@ -13,7 +13,7 @@ import {
   Plane,
   Building,
 } from 'lucide-react';
-import { RELOCATION_INFO, PERSONAL_INFO } from '../data/portfolioData';
+import { PERSONAL_INFO } from '../data/portfolioData';
 import { ThreeGlobe } from './ThreeGlobe';
 
 export const RelocationBanner: React.FC = () => {
@@ -181,7 +181,7 @@ export const RelocationBanner: React.FC = () => {
                 Work Engagement Models
               </h3>
 
-              <div className="grid grid-cols-1 gap-2.5">
+              {/* <div className="grid grid-cols-1 gap-2.5">
                 {RELOCATION_INFO.workModel.map((model, idx) => (
                   <div
                     key={idx}
@@ -191,7 +191,7 @@ export const RelocationBanner: React.FC = () => {
                     <ShieldCheck className="w-4 h-4 text-emerald-400" />
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
 
             {/* Language Proficiency Card */}
@@ -201,7 +201,7 @@ export const RelocationBanner: React.FC = () => {
                 Language Fluency
               </h3>
 
-              <div className="space-y-3">
+              {/* <div className="space-y-3">
                 {RELOCATION_INFO.languages.map((lang, idx) => (
                   <div key={idx} className="space-y-1">
                     <div className="flex justify-between text-xs">
@@ -225,7 +225,7 @@ export const RelocationBanner: React.FC = () => {
                     </div>
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
 
             {/* Degree Distinction Badge */}

@@ -23,7 +23,7 @@ export const ContactSection: React.FC = () => {
     name: '',
     email: '',
     company: '',
-    location: 'Remote / On-site',
+    location: 'Remote / On-site / Hybrid',
     message: '',
   });
 
@@ -151,7 +151,7 @@ export const ContactSection: React.FC = () => {
               <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 space-y-1">
                 <p className="text-[10px] font-mono text-slate-400 uppercase">Current Location</p>
                 <p className="text-xs font-bold text-white">{PERSONAL_INFO.location}</p>
-                <p className="text-[11px] text-amber-400 font-mono">Ready for immediate relocation to Budapest / Hungary / EU</p>
+                <p className="text-[11px] text-amber-400 font-mono">Open to work in Hyderabad, Bangalore and other foreign countries</p>
               </div>
             </div>
 
@@ -247,8 +247,8 @@ export const ContactSection: React.FC = () => {
                         onChange={(e) => setFormData({ ...formData, location: e.target.value })}
                         className="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-amber-500"
                       >
-                        <option value="Budapest / Hungary / EU">Budapest, Hungary (On-site / Hybrid)</option>
-                        <option value="EU Other">Other European Union City</option>
+                        <option value="On-site">On-site / Hybrid</option>
+                        <option value="EU Other">Foreign Countries</option>
                         <option value="Global Remote">Full-Time Global Remote</option>
                         <option value="Contract">B2B / Contract</option>
                       </select>
