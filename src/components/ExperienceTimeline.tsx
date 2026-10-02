@@ -30,7 +30,7 @@ export const ExperienceTimeline: React.FC = () => {
             Work Experience
           </h2>
           <p className="text-slate-400 text-base max-w-2xl mx-auto">
-            1.8+ years of hands-on software engineering across production web platforms, CMS integrations, and AI machine learning research.
+            2 years of hands-on software engineering across production web platforms, CMS integrations, and AI machine learning research.
           </p>
         </div>
 

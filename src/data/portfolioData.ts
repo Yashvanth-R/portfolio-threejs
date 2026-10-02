@@ -4,7 +4,7 @@ export const PERSONAL_INFO = {
   name: 'Yashvanth R',
   title: 'Full Stack Developer & Software Engineer',
   tagline: 'Crafting High-Performance Scalable Web Applications & Distributed Systems',
-  bio: 'Full Stack Developer with 1.8+ years of professional experience building and deploying production-grade applications using React, Next.js, Node.js, Express, FastAPI, and Cloud infrastructure. Specialized in microservices, payment gateways, CMS integrations, and containerized deployment.',
+  bio: 'Full Stack Developer with 2 years of professional experience building and deploying production-grade applications using React, Next.js, Node.js, Express, FastAPI, and Cloud infrastructure. Specialized in microservices, payment gateways, CMS integrations, and containerized deployment.',
   location: 'Bangalore, Karnataka, India (560079)',
   email: 'yashvanthr064@gmail.com',
   phone: '(+91) 9591622064',
@@ -13,7 +13,7 @@ export const PERSONAL_INFO = {
   linkedin: 'https://linkedin.com/in/yashvanth-r',
   portfolioVercel: 'https://yashvanth-portfolio-alpha.vercel.app/',
   stats: [
-    { label: 'Years Experience', value: '1.8+' },
+    { label: 'Years Experience', value: '2' },
     { label: 'Degree Specialization', value: 'AI & DS' },
     { label: 'Production Projects', value: '5+' },
     { label: 'Tech Stack Proficiency', value: '15+' },
@@ -130,7 +130,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     iconName: 'Code',
     description: 'Core languages utilized for web engineering, data science, and scripting.',
     skills: [
-      { name: 'TypeScript', level: 92, experience: '1.8+ yrs', featured: true, tagline: 'Strong typing, interfaces, and strict asynchronous architecture' },
+      { name: 'TypeScript', level: 92, experience: '2 yrs', featured: true, tagline: 'Strong typing, interfaces, and strict asynchronous architecture' },
       { name: 'JavaScript (ES6+)', level: 95, experience: '2+ yrs', featured: true, tagline: 'Async/Await, Promises, closures, and DOM optimization' },
       { name: 'Python', level: 88, experience: '2+ yrs', featured: true, tagline: 'FastAPI, Flask, Celery, AI/ML models, and data scripting' },
       { name: 'SQL', level: 85, experience: '2+ yrs', featured: true, tagline: 'Complex joins, indexing, query optimization, and schema migrations' },
@@ -141,11 +141,11 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     iconName: 'Layout',
     description: 'Building ultra-responsive, accessible, and fast user interfaces.',
     skills: [
-      { name: 'React.js', level: 95, experience: '1.8+ yrs', featured: true, tagline: 'Custom hooks, Context API, dynamic render tuning' },
+      { name: 'React.js', level: 95, experience: '2 yrs', featured: true, tagline: 'Custom hooks, Context API, dynamic render tuning' },
       { name: 'Next.js (App / Pages)', level: 92, experience: '1.5+ yrs', featured: true, tagline: 'Server-side rendering, ISR, API routes, and SEO' },
-      { name: 'Tailwind CSS', level: 95, experience: '1.8+ yrs', featured: true, tagline: 'Utility-first styling, design tokens, and responsive layouts' },
+      { name: 'Tailwind CSS', level: 95, experience: '2 yrs', featured: true, tagline: 'Utility-first styling, design tokens, and responsive layouts' },
       { name: 'Shadcn UI & Chakra UI', level: 90, experience: '1.5+ yrs', tagline: 'Accessible component libraries and custom theme systems' },
-      { name: 'Redux Toolkit & Zustand', level: 90, experience: '1.8+ yrs', featured: true, tagline: 'Predictable state management and slice persistence' },
+      { name: 'Redux Toolkit & Zustand', level: 90, experience: '2 yrs', featured: true, tagline: 'Predictable state management and slice persistence' },
     ],
   },
   {
@@ -153,7 +153,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     iconName: 'Server',
     description: 'Designing resilient microservices, asynchronous queues, and REST APIs.',
     skills: [
-      { name: 'Node.js & Express.js', level: 92, experience: '1.8+ yrs', featured: true, tagline: 'Middleware, REST API design, stream handling' },
+      { name: 'Node.js & Express.js', level: 92, experience: '2 yrs', featured: true, tagline: 'Middleware, REST API design, stream handling' },
       { name: 'NestJS', level: 85, experience: '1+ yr', featured: true, tagline: 'Enterprise Modular architecture, Dependency Injection, Guards' },
       { name: 'FastAPI & Flask', level: 88, experience: '1.5+ yrs', featured: true, tagline: 'Async Python endpoints, Pydantic validation, OpenAPI specs' },
       { name: 'RabbitMQ & Celery', level: 82, experience: '1+ yr', tagline: 'Event-driven message queuing, pub/sub, background workers' },
@@ -175,8 +175,8 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     iconName: 'Database',
     description: 'Relational, NoSQL, in-memory caches, and CMS solutions.',
     skills: [
-      { name: 'PostgreSQL & MySQL', level: 88, experience: '1.8+ yrs', featured: true, tagline: 'Relational schema design, transactions, relational queries' },
-      { name: 'MongoDB', level: 90, experience: '1.8+ yrs', featured: true, tagline: 'Document database modeling, aggregation pipelines, Motor driver' },
+      { name: 'PostgreSQL & MySQL', level: 88, experience: '2 yrs', featured: true, tagline: 'Relational schema design, transactions, relational queries' },
+      { name: 'MongoDB', level: 90, experience: '2 yrs', featured: true, tagline: 'Document database modeling, aggregation pipelines, Motor driver' },
       { name: 'Redis', level: 82, experience: '1+ yr', tagline: 'In-memory key-value caching and session management' },
       { name: 'Strapi CMS & Supabase', level: 88, experience: '1.5+ yrs', featured: true, tagline: 'Headless CMS setup, content relations, Supabase Auth & RLS' },
     ],
@@ -187,7 +187,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     description: 'Secure transaction processing and token-based identity systems.',
     skills: [
       { name: 'Stripe, PayPal & PayU APIs', level: 88, experience: '1.5+ yrs', tagline: 'Webhook handling, multi-currency checkout, payment security' },
-      { name: 'JWT & Supabase Auth', level: 92, experience: '1.8+ yrs', tagline: 'Token rotation, OAuth integrations, protected routes' },
+      { name: 'JWT & Supabase Auth', level: 92, experience: '2 yrs', tagline: 'Token rotation, OAuth integrations, protected routes' },
     ],
   },
 ];

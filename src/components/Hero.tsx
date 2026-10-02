@@ -78,7 +78,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl"
             >
-              Full Stack Developer with <strong className="text-white">1.8+ years of experience</strong> engineering robust RESTful APIs, CMS eCommerce platforms, and event-driven microservices. B.E. in AI & Data Science graduate passionate about high-availability web architectures and clean UI engineering.
+              Full Stack Developer with <strong className="text-white">2 years of experience</strong> engineering robust RESTful APIs, CMS eCommerce platforms, and event-driven microservices. B.E. in AI & Data Science graduate passionate about high-availability web architectures and clean UI engineering.
             </motion.p>
 
             {/* Primary Action Buttons */}

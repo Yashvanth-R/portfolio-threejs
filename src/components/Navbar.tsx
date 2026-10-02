@@ -76,7 +76,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               </span>
             </div>
             <p className="text-xs text-slate-400 font-mono hidden sm:block">
-              Full Stack Developer • 1.8+ Yrs Exp
+              Full Stack Developer • 2 Yrs Exp
             </p>
           </div>
         </a>
